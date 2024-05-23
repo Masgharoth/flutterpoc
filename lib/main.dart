@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //all the client id and domain info obfuscated here
 import 'package:flutter_appauth/flutter_appauth.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter/foundation.dart';
@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
   final path = authorizationurl;
   final clientId = FUSIONAUTH_CLIENT_ID;
   final redirectUri = redirecturl;
-  final scope = ['openid'];
+  final scope = ['openid', 'email', 'profile', 'offline_access'];
 
   @override
   void initState() {
