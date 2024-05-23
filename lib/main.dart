@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart'; //all the client id and domain info obfuscated here
+//all the client id and domain info obfuscated
+import 'package:flutter/material.dart';
 import 'package:flutter_appauth/flutter_appauth.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter/foundation.dart';
